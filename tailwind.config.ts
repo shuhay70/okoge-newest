@@ -1,10 +1,10 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+import type { Config } from "tailwindcss";
+
+const config: Config = {
   content: [
-    // appディレクトリ内のすべてのサブフォルダとファイルを対象にします
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    // もしcomponentsフォルダなどがあれば、それも追加します
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    // srcフォルダ内のappとcomponentsを対象にする
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -21,3 +21,5 @@ export default {
   },
   plugins: [],
 };
+
+export default config;
