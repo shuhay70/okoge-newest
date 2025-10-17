@@ -1,5 +1,9 @@
+/** @type {import('postcss-load-config').Config} */
 const config = {
-  plugins: ["@tailwindcss/postcss"],
+  // ← オブジェクトを 'config' という名前の変数に代入
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
 };
 
-export default config;
+export default config; // ← 名前をつけた変数をエクスポート
