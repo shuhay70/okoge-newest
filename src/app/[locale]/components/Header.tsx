@@ -12,16 +12,19 @@ export default function Header() {
   return (
     <header className="flex flex-col justify-center lg:w-full bg-[#505938]">
       <div className="flex justify-between w-full">
-        <div className="flex justify-center items-center m-[15px] text-white text-lg">
-          <Image
-            className="mr-[10px]"
-            src="/image/logo.jpg"
-            width={40}
-            height={40}
-            alt="おこげのロゴ"
-          ></Image>
-          <h2>{t("restaurantName")}</h2>
-        </div>
+        <Link href={"/"}>
+          <div className="flex justify-center items-center mx-[15px] my-[25px] text-white text-lg">
+            <Image
+              className="mr-[10px]"
+              src="/image/logo.jpg"
+              width={55}
+              height={55}
+              alt="おこげのロゴ"
+            ></Image>
+            <h2 className="text-[22px]">{t("restaurantName")}</h2>
+          </div>
+        </Link>
+
         <details
           open
           className="flex flex-col justify-center items-center dropdown dropdown-end m-[15px] relative"
@@ -30,8 +33,8 @@ export default function Header() {
             <Image
               className="mr-[10px]"
               src="/image/tikyugi.jpg"
-              width={40}
-              height={40}
+              width={55}
+              height={55}
               alt="地球儀マーク"
             ></Image>
           </summary>
