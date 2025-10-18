@@ -11,8 +11,7 @@
     "drink": "Drinks",
     "sideDish": "Side Dishes",
     "teppanyaki": "Teppanyaki",
-    "dessert": "Desserts",
-    "lunch": "Lunch"
+    "dessert": "Desserts"
   },
 
   "Menu": {
@@ -48,7 +47,118 @@
     ],
 
     "seasonal": [],
-    "drink": [],
+
+    "drink": {
+      "beer": {
+        "title": "＜Beer＞",
+        "items": [
+          { "name": "Asahi Super Dry (Draft)", "price": 220 },
+          { "name": "Sapporo Akaboshi (Bottle)", "price": 220 },
+          { "name": "Asahi Super Dry (Bottle)", "price": 220 },
+          { "name": "Asahi Dry Zero (Non-Alcoholic)", "price": 220 }
+        ]
+      },
+      "tokyoSpecialties": {
+        "title": "＜Tokyo Specialties＞",
+        "items": [
+          {
+            "name": "Hoppy (White/Black)",
+            "price": 220,
+            "description": " What is Hoppy? 👈 "
+          },
+          { "name": "Naka (Shochu Refill)", "price": 220 },
+          { "name": "Soto (Hoppy Refill - White/Black)", "price": 220 },
+          { "name": "Original Vice Sour", "price": 220 },
+          {
+            "name": "Apricot Stick Sour",
+            "price": 220,
+            "description": " *Uses an entire frozen 'Apricot Stick' for a refreshing sweetness and nostalgic flavor. "
+          },
+          {
+            "name": "Kuwa-chu Sour (Mulberry Shochu)",
+            "price": 220,
+            "description": " *A Tsukishima specialty! Enjoy the smooth, refreshing taste of mulberry tea."
+          },
+          {
+            "name": "Denki Bran",
+            "price": 220,
+            "description": " *A 45% alcohol liqueur born in Asakusa during the Meiji era."
+          },
+          {
+            "name": "Inazuma Highball (Denki Bran Highball)",
+            "price": 220,
+            "description": " * 'Denki Bran' mixed with soda water."
+          }
+        ]
+      },
+      "highballChuhai": {
+        "title": "＜Highballs & Chuhais＞",
+        "items": [
+          { "name": "Kaku Highball", "price": 220 },
+          { "name": "Yamazaki Highball", "price": 220 },
+          { "name": "Hakushu Highball", "price": 220 },
+          { "name": "Roku (Gin) Highball", "price": 220 },
+          { "name": "Fresh Lemon Sour (Not Sweet)", "price": 220 },
+          { "name": "Fresh Lemon Sour (Slightly Sweet)", "price": 220 },
+          { "name": "Sudachi Sour", "price": 220 },
+          { "name": "Yoroshiku Sudachu Sour", "price": 220 },
+          { "name": "Grapefruit Sour", "price": 220 },
+          { "name": "Homemade Matcha Highball", "price": 220 },
+          { "name": "Oolong Highball", "price": 220 },
+          { "name": "Jasmine Highball", "price": 220 },
+          { "name": "Honey Yuzu Sour", "price": 220 },
+          { "name": "Umeboshi Sour (Pickled Plum)", "price": 220 }
+        ]
+      },
+      "shochu": {
+        "title": "＜Shochu＞",
+        "items": [
+          { "name": "Amakusa (Barley)", "price": 220 },
+          { "name": "Taimei (Barley)", "price": 220 },
+          { "name": "aaaaaaaaaaaaaaaaaaaaaaaaa", "price": 220 },
+          { "name": "Yamaneko (Sweet Potato)", "price": 220 },
+          { "name": "Kawagoe (Sweet Potato)", "price": 220 },
+          { "name": "Shichida (Rice)", "price": 220 },
+          { "name": "Yoroshiku Senman Arubeshi (Rice)", "price": 220 }
+        ]
+      },
+      "fruitWine": {
+        "title": "＜Fruit Liqueur＞",
+        "items": [
+          { "name": "Houou Biden Ripe Peach", "price": 220 },
+          { "name": "Houou Biden Wenshu Mandarin Orange", "price": 220 },
+          {
+            "name": "Hakkaisan Nigori Umeshu (Cloudy Plum Wine)",
+            "price": 220
+          },
+          { "name": "Umeshu (Made with Shiro Kaga Plums)", "price": 220 },
+          { "name": "La France (Pear Liqueur)", "price": 220 }
+        ]
+      },
+      "sake": {
+        "title": "＜Sake＞",
+        "items": [
+          { "name": "Hakurakusei Tokubetsu Junmai", "price": 220 },
+          { "name": "Sawaya Matsumoto Ginjo", "price": 220 },
+          { "name": "Kokuryu Junmai", "price": 220 },
+          { "name": "Something", "price": 220 },
+          { "name": "Something", "price": 220 }
+        ]
+      },
+      "softDrink": {
+        "title": "＜Soft Drinks＞",
+        "items": [
+          { "name": "Oolong Tea", "price": 220 },
+          { "name": "Jasmine Tea", "price": 220 },
+          { "name": "Calpis", "price": 220 },
+          { "name": "Orange Juice", "price": 220 },
+          { "name": "Ramune", "price": 220 },
+          { "name": "Coke", "price": 220 },
+          { "name": "Ginger Ale", "price": 220 }
+        ]
+      }
+    },
+
     "sideDish": [],
     "teppanyaki": [],
     "dessert": [],

@@ -1,62 +1,71 @@
 import { useTranslations } from "next-intl";
-
-import type { Metadata } from "next";
-
-// generateMetadata関数を追加
-// generateMetadata関数の中でクライアントサイド専用のフック（Hook）であるuseTranslationsを呼び出すことはできない。
-export async function generateMetadata({}): Promise<Metadata> {
-  return {
-    title: "もんじゃの歴史", // 例として「明太子もちもんじゃ」
-    description: `もんじゃの歴史を紹介するページです。`,
-  };
-}
+import {
+  Bs1CircleFill,
+  Bs2CircleFill,
+  Bs3CircleFill,
+  Bs4CircleFill,
+  Bs5CircleFill,
+  Bs6CircleFill,
+  Bs7CircleFill,
+} from "react-icons/bs";
+import { FaRegClock, FaQuestion } from "react-icons/fa";
+import { FaFire } from "react-icons/fa6";
 
 export default function HomePage() {
   const t = useTranslations("History");
 
   return (
-    <main>
-      <div
-        className="pt-[95px] scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 overflow-y-scroll  bg-white"
-        style={{
-          backgroundImage: "url('/image/backimg1.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="w-[80%] bg-white p-[25px] pb-[25px] mb-[30px] mx-auto mt-[30px]">
-          <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pb-[0px] pb-[10px]">
+    <main className="bg-[#f4f5f2] flex justify-center">
+      <div className="w-[330px]">
+        <div className="bg-white rounded-[40px] mt-[50px]">
+          <p className="flex items-center font-bold text-xl pt-[30px] pl-[25px] pb-[15px]">
+            <FaRegClock className="mx-[10px] w-[25px] h-[25px] text-[#505938]" />
             {t("title1")}
           </p>
-          <div className="lg:flex">
-            <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH1")}</p>
-          </div>
+          <p className="px-[25px] pb-[25px]">{t("EXPLANATION_PARAGRAPH1")}</p>
+        </div>
 
-          <div className="lg:w-[1100px] border-t border-gray-300 lg:my-[40px] my-[25px]"></div>
-          <div className="lg:flex">
-            <div className="lg:flex lg:flex-col">
-              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pb-[0px] pb-[10px]">
-                {t("title2")}{" "}
-              </p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH2")}</p>
-            </div>
-          </div>
-          <div className="lg:w-[1100px] border-t border-gray-300 lg:my-[40px] my-[25px]"></div>
+        <div className="bg-white rounded-[40px] mt-[50px]">
+          <p className="flex items-center font-bold text-xl pt-[30px] pl-[25px] pb-[15px]">
+            <FaQuestion className="mx-[10px] w-[25px] h-[25px] text-[#505938]" />
+            {t("title2")}
+          </p>
+          <p className="px-[25px] pb-[25px]">{t("EXPLANATION_PARAGRAPH2")}</p>
+        </div>
 
-          <div className="lg:flex lg:items-center">
-            <div className="lg:flex lg:flex-col ">
-              <p className="lg:pl-[25px] lg:p-[15px] font-bold lg:pb-[0px] pb-[10px]">
-                {t("title3")}
-              </p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH3")}</p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH4")} </p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH5")} </p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH6")}</p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH7")}</p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH8")}</p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH9")}</p>
-              <p className="lg:px-[25px]">{t("EXPLANATION_PARAGRAPH10")}</p>
-            </div>
+        <div className="bg-white rounded-[40px] my-[50px]">
+          <p className="flex items-center font-bold text-xl pt-[30px] pl-[25px] pb-[15px]">
+            <FaFire className="mx-[10px] w-[25px] h-[25px] text-[#505938]" />
+            {t("title3")}
+          </p>
+
+          <div className="flex flex-col">
+            <Bs1CircleFill className="w-[20px] h-[20px] my-[8px] mx-[20px]" />
+            <p className="px-[25px]">{t("EXPLANATION_PARAGRAPH4")} </p>
+          </div>
+          <div className="flex flex-col">
+            <Bs2CircleFill className="w-[20px] h-[20px] my-[8px] mx-[20px]" />
+            <p className="px-[25px]">{t("EXPLANATION_PARAGRAPH5")} </p>
+          </div>
+          <div className="flex flex-col">
+            <Bs3CircleFill className="w-[20px] h-[20px] my-[8px] mx-[20px]" />
+            <p className="px-[25px]">{t("EXPLANATION_PARAGRAPH6")} </p>
+          </div>
+          <div className="flex flex-col">
+            <Bs4CircleFill className="w-[20px] h-[20px] my-[8px] mx-[20px]" />
+            <p className="px-[25px]">{t("EXPLANATION_PARAGRAPH7")} </p>
+          </div>
+          <div className="flex flex-col">
+            <Bs5CircleFill className="w-[20px] h-[20px] my-[8px] mx-[20px]" />
+            <p className="px-[25px]">{t("EXPLANATION_PARAGRAPH8")} </p>
+          </div>
+          <div className="flex flex-col">
+            <Bs6CircleFill className="w-[20px] h-[20px] my-[8px] mx-[20px]" />
+            <p className="px-[25px]">{t("EXPLANATION_PARAGRAPH9")} </p>
+          </div>
+          <div className="flex flex-col pb-[30px]">
+            <Bs7CircleFill className="w-[20px] h-[20px] my-[8px] mx-[20px]" />
+            <p className="px-[25px]">{t("EXPLANATION_PARAGRAPH10")} </p>
           </div>
         </div>
       </div>{" "}
