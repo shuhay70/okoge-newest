@@ -57,7 +57,7 @@ export default function MenuPage() {
       {/* --- 既存の「もんじゃの歴史・焼き方」ボタン (変更なし) --- */}
       <div className="flex justify-center">
         <Link
-          className="flex justify-center text-lg border-[3px] border-[#97B486] rounded-[20px] hover:bg-gray-600 py-[20px] px-[110px]"
+          className="flex justify-center text-lg border-[3px] border-[#97B486] rounded-[20px] py-[20px] px-[60px]"
           href={"/history"} // リンク先を history に変更
         >
           <FaBook className="mr-[10px] mt-[5px]" />
