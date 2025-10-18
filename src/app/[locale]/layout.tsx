@@ -1,23 +1,33 @@
-import { NextIntlClientProvider } from "next-intl";
-import "./globals.css";
+// src/app/[locale]/layout.tsx (サーバーコンポーネント)
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+// useMessages はインポートしない
+import { NextIntlClientProvider } from "next-intl";
+// getMessages をサーバーからインポート
+import { getMessages } from "next-intl/server";
+import "./globals.css";
+// 新しく作成したクライアントコンポーネントをインポート
+import ConditionalLayoutWrapper from "./components/ConditionalLayoutWrapper";
 
 type Props = {
   children: React.ReactNode;
+  params: { locale: string };
 };
 
-export default async function RootLayout({ children }: Props) {
+// async 関数にする
+export default async function RootLayout({
+  children,
+  params: { locale },
+}: Props) {
+  // サーバーサイドでメッセージを取得
+  const messages = await getMessages();
+
   return (
-    <html>
+    <html lang={locale}>
       <body>
-        <NextIntlClientProvider>
-          <Header />
-
-          {children}
-
-          <Footer />
+        {/* プロバイダーでクライアントコンポーネントをラップ */}
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          {/* ラッパーコンポーネントを使用 */}
+          <ConditionalLayoutWrapper>{children}</ConditionalLayoutWrapper>
         </NextIntlClientProvider>
       </body>
     </html>
