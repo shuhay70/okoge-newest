@@ -1,15 +1,18 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
   return (
     <div className="flex flex-col items-center bg-[#505938] h-screen">
-      <img
-        className="h-[220px] w-[220px] my-[30px]"
+      <Image
+        className="lg:pl-[20px] lg:w-auto lg:h-auto my-[30px]"
         src="/image/logo.jpg"
-        alt="logo"
-      />
+        width={220}
+        height={220}
+        alt="おこげのロゴ"
+      ></Image>
       <div className="flex flex-col w-full">
         <Link
           href="/menu"

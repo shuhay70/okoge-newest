@@ -1,6 +1,46 @@
 {
   "HomePage": {
-    "title": "Hello world!",
+    "title": "About Monjayaki",
     "title1": "Hello world!"
+  },
+
+  "History": {
+    "title1": "  ＜The History of Monjayaki＞",
+    "EXPLANATION_PARAGRAPH1": " Monja is a dish in which ingredients are mixed with flour that has been loosely dissolved in water, baked on a griddle, and eaten hot with a spatula for each person. The origin of monja dates back to the late Edo period (1603-1867), when it was sold as an affordable snack in front of a candy shop in Tsukishima. Around the 1950s, when food was scarce, simple monjayaki, made by dissolving udon flour and adding soy sauce and syrup, was widely popular among children. From the end of the Edo period to the Meiji era (1868-1912), when supplies were scarce, children who did not have easy access to paper and calligraphy tools would write letters on a griddle with dough made from wheat flour dissolved in water to teach and play with, hence the name 「mojiyaki」 The word「moji」transformed into 「monja」and eventually 「monja」 . With the postwar economic growth, monja evolved by adding ingredients such as cabbage, corn and fried eggs, but at the same time, the number of dagashiya, which children had grown familiar with, declined dramatically. Several monjayaki stores sprang up in an attempt to preserve the taste familiar from childhood, and monjayaki has transformed into a snack for adults, and continues to this day. The essential ingredients for monjayaki are a teppan and a spatula. Monjayaki is usually eaten by scooping a small amount from the outside of the dough and pressing it against the teppan to char it, but nowadays there are so many different variations of ingredients that one can enjoy a variety of tastes and monja textures.",
+
+    "title2": "  ＜Why Make a 「Dote」(Dough Ring)＞",
+    "EXPLANATION_PARAGRAPH2": "When it comes to monjayaki, many people immediately think of the dote (a dough ring). But why is it necessary? Isn’t it the same if you just mix everything together? In fact, you can make monjayaki with or without the dote! The dote was originally invented as a 「trick」 to prevent the watery batter from spilling over the edge of the griddle. While modern griddles have raised edges, making a dote is no longer essential. However, it remains a part of Tokyo culture, a remnant of the past! Creating the dote adds an element of excitement and fun, especially when you wonder if the batter will spill over or not. It's a playful touch from the old town and adds to the charm of making monjayaki. Additionally, the dote helps balance the moisture from the cabbage and thickens the batter, enhancing the overall flavor. For the perfect monjayaki experience, leave the details to the professionals at Moheji! ",
+
+    "title3": " ＜How to Make Monjayaki＞",
+    "EXPLANATION_PARAGRAPH3": "*At our restaurant, our staff will make the monjayaki for you.",
+    "EXPLANATION_PARAGRAPH4": "①[Prepare the griddle] Spread an appropriate amount of oil using a large spatula. Dropa small amount of the batter onto the griddle, and heat it until it sizzles.",
+    "EXPLANATION_PARAGRAPH5": "②[Cook the ingredients] Place the pork, squid, rice cakes, and other ingredients onto the griddle and lightly stir-fry them.",
+
+    "EXPLANATION_PARAGRAPH6": "③[Add the remaining ingredients]Add the remaining ingredients Drop the remaining ingredients from the bowl onto the griddle (be careful not to spill the broth, as it may burn).",
+
+    "EXPLANATION_PARAGRAPH7": "④[Cook the cabbage] Stir-fry the cabbage until it becomes tender, using a cutting motion.",
+    "EXPLANATION_PARAGRAPH8": "⑤[Create the dote (dough ring)] Once the cabbage has softened, form a circular dote (dough ring) around the ingredients. The key is to make sure the broth  doesn’t spill out.",
+
+    "EXPLANATION_PARAGRAPH9": "⑥[Add the broth] Pour the remaining broth into the center of the dote. Pour it gently to avoid spilling. After a while, the broth will start to bubble inside the dote.",
+
+    "EXPLANATION_PARAGRAPH10": "⑦[Mix everything together] Gradually mix the inside and outside of the dote together. Once everything is combined, lower the heat and spread it thinly to complete the dish. Top with your choice of toppings like aonori (green seaweed) or cheese!"
+  },
+
+  "Header": {
+    "BackToHome": "← Back to Language",
+    "restaurantName": "Okoge Honten",
+    "button22": "日本語",
+    "button21": "English",
+    "button23": "中文",
+    "button24": "한국어"
+  },
+
+  "Footer": {
+    "title1": "＜Our Commitment＞",
+    "ex11": "Our restaurant was established in 1871 and is directly operated by a seafood wholesaler from Toyosu Market.The soup base for our monjayaki is made with seafood and chicken broth.All monjayaki and okonomiyaki  are cooked by our staff right in front of you.",
+    "title2": "＜Company Information＞",
+    "ex21": "Our management philosophy blends tradition and innovation. Our vision is to spread 'Tokyo culture to the world.' We believe in delivering the best-tasting food to our customers and sharing Tokyo's culinary culture globally. To achieve this, we aim to provide unforgettable dining experiences as professionals in the culinary field.",
+    "ex22": "In addition to running specialty monjayaki restaurants, we operate retail businesses selling seafood and traditional Japanese side dishes.",
+    "ex23": "Visit our company website here 👈"
   }
 }
