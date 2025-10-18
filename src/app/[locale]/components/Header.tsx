@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { GrLanguage } from "react-icons/gr";
 
 export default function Header() {
   const t = useTranslations("Header");
@@ -25,18 +26,9 @@ export default function Header() {
           </div>
         </Link>
 
-        <details
-          open
-          className="flex flex-col justify-center items-center dropdown dropdown-end m-[15px] relative"
-        >
+        <details className="flex flex-col justify-center items-center dropdown dropdown-end m-[15px] relative">
           <summary className="list-none [&::-webkit-details-marker]:hidden">
-            <Image
-              className="mr-[10px]"
-              src="/image/tikyugi.jpg"
-              width={55}
-              height={55}
-              alt="地球儀マーク"
-            ></Image>
+            <GrLanguage className="h-[50px] w-[50px] text-white" />
           </summary>
           <ul className="dropdown-content menu bg-gray-100 text-black z-[1] w-[100px] p-2 shadow absolute right-0 mt-2">
             <li onClick={() => setLangMenuOpen(false)}>

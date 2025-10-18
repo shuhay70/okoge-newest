@@ -4,6 +4,57 @@
     "title1": "Hello world!"
   },
 
+  "Categories": {
+    "monja": "Monja",
+    "okonomiyaki": "Okonomiyaki",
+    "seasonal": "Seasonal",
+    "drink": "Drinks",
+    "sideDish": "Side Dishes",
+    "teppanyaki": "Teppanyaki",
+    "dessert": "Desserts",
+    "lunch": "Lunch"
+  },
+
+  "Menu": {
+    "monja": [
+      {
+        "name": "Mentaiko Mochi Cheese Monja",
+        "price": 1500,
+        "description": "Most popular! If in doubt, choose this."
+      },
+      {
+        "name": "Pork Kimchi Monja",
+        "price": 1300,
+        "description": "A classic with an appetizing spicy kick."
+      },
+      {
+        "name": "Downtown Special",
+        "price": 1600,
+        "description": "A luxurious version packed with ingredients!"
+      }
+    ],
+    "okonomiyaki": [
+      { "name": "Pork Tama", "price": 1000, "description": "Simple is best." },
+      {
+        "name": "Mix Tama",
+        "price": 1400,
+        "description": "Harmony of seafood and pork."
+      },
+      {
+        "name": "Cheese Tama",
+        "price": 1200,
+        "description": "Irresistible melted cheese!"
+      }
+    ],
+
+    "seasonal": [],
+    "drink": [],
+    "sideDish": [],
+    "teppanyaki": [],
+    "dessert": [],
+    "lunch": []
+  },
+
   "History": {
     "title1": "  ＜The History of Monjayaki＞",
     "EXPLANATION_PARAGRAPH1": " Monja is a dish in which ingredients are mixed with flour that has been loosely dissolved in water, baked on a griddle, and eaten hot with a spatula for each person. The origin of monja dates back to the late Edo period (1603-1867), when it was sold as an affordable snack in front of a candy shop in Tsukishima. Around the 1950s, when food was scarce, simple monjayaki, made by dissolving udon flour and adding soy sauce and syrup, was widely popular among children. From the end of the Edo period to the Meiji era (1868-1912), when supplies were scarce, children who did not have easy access to paper and calligraphy tools would write letters on a griddle with dough made from wheat flour dissolved in water to teach and play with, hence the name 「mojiyaki」 The word「moji」transformed into 「monja」and eventually 「monja」 . With the postwar economic growth, monja evolved by adding ingredients such as cabbage, corn and fried eggs, but at the same time, the number of dagashiya, which children had grown familiar with, declined dramatically. Several monjayaki stores sprang up in an attempt to preserve the taste familiar from childhood, and monjayaki has transformed into a snack for adults, and continues to this day. The essential ingredients for monjayaki are a teppan and a spatula. Monjayaki is usually eaten by scooping a small amount from the outside of the dough and pressing it against the teppan to char it, but nowadays there are so many different variations of ingredients that one can enjoy a variety of tastes and monja textures.",
