@@ -1,7 +1,8 @@
 "use client";
 
 import { useTranslations, useMessages } from "next-intl";
-import Link from "next/link";
+// import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { useState } from "react";
 import { FaBook } from "react-icons/fa";
 
@@ -57,7 +58,7 @@ export default function MenuPage() {
       {/* --- 既存の「もんじゃの歴史・焼き方」ボタン (変更なし) --- */}
       <div className="flex justify-center">
         <Link
-          className="flex justify-center text-lg border-[3px] border-[#97B486] rounded-[20px] py-[20px] px-[60px]"
+          className="flex justify-center text-lg border-[3px] border-[#97B486] rounded-[20px] py-[20px] px-[20px] mx-[40px]"
           href={"/history"}
         >
           <FaBook className="mr-[10px] mt-[5px]" />

@@ -20,9 +20,9 @@
   "Menu": {
     "monja": [
       {
-        "name": "Mentaiko Mochi Monja (明太子もちもんじゃ)",
+        "name": "Mentaiko (Spicy Cod Roe) & Rice Cake Monja (明太子もちもんじゃ)",
         "price": 1848,
-        "description": "Recommended Toppings: Cheese, Shiso Leaf"
+        "description": "Recommended Toppings: Cheese, Perilla"
       },
       {
         "name": "Squid Ink Monja (いか墨もんじゃ)",
@@ -32,12 +32,12 @@
       {
         "name": "Seafood Monja (海鮮もんじゃ)",
         "price": 2068,
-        "description": "Recommended Toppings: Pork Belly, Satsuma-age (Fried Fish Cake), Shiso Leaf"
+        "description": "Recommended Toppings: Pork Belly, Satsuma-age (Fried Fish Cake), Perilla"
       },
       {
-        "name": "Mentaiko Shiso Monja (明太子しそもんじゃ)",
+        "name": "Mentaiko (Spicy Cod Roe) & Perilla Monja (明太子しそもんじゃ)",
         "price": 1848,
-        "description": "Recommended Toppings: Cheese, Shiso Leaf"
+        "description": "Recommended Toppings: Cheese, Perilla"
       },
       {
         "name": "Pork Kimchi Monja (豚キムチもんじゃ)",
@@ -50,24 +50,24 @@
         "description": "Recommended Toppings: Cheese, Shimeji Mushrooms, Shrimp"
       },
       {
-        "name": "Squid Soba Monja (いかそばもんじゃ)",
+        "name": "Squid & Noodles Monja (いかそばもんじゃ)",
         "price": 1518,
         "description": "Recommended Toppings: Satsuma-age (Fried Fish Cake), Mochi"
       },
       {
         "name": "Octopus & Squid Monja (タコいかもんじゃ)",
         "price": 1738,
-        "description": "Recommended Toppings: Soba Noodles, Shiso Leaf, Shredded Nori"
+        "description": "Recommended Toppings: Noodles, Perilla, Shredded Nori Seaweed"
       },
       {
         "name": "Plum & Octopus Monja (梅たこもんじゃ)",
         "price": 1518,
-        "description": "Recommended Toppings: Shiso Leaf, Shredded Nori, Egg"
+        "description": "Recommended Toppings: Perilla, Shredded Nori Seaweed, Egg"
       },
       {
-        "name": "Shiso, Wasabi, Octopus & Mayo Monja (しそわさびたこマヨもんじゃ)",
+        "name": "Perilla, Wasabi, Octopus & Mayo Monja (しそわさびたこマヨもんじゃ)",
         "price": 1628,
-        "description": "Recommended Toppings: Shiso Leaf, Shredded Nori, Pickled Plum"
+        "description": "Recommended Toppings: Perilla, Shredded Nori Seaweed, Pickled Plum"
       },
       {
         "name": "Shrimp & Squid Tentacle Monja (海老げそもんじゃ)",
@@ -75,12 +75,12 @@
         "description": "Recommended Toppings: Soba Noodles, Satsuma-age (Fried Fish Cake), Mochi"
       },
       {
-        "name": "Pork, Green Onion & Salt Monja (豚ねぎ塩もんじゃ)",
+        "name": "Monjayaki with Pork & Green Onion Salt Sauce (豚ねぎ塩もんじゃ)",
         "price": 1518,
-        "description": "Recommended Toppings: Shiso Leaf, Shredded Nori, Pickled Plum"
+        "description": "Recommended Toppings: Perilla, Shredded Nori Seaweed, Pickled Plum"
       },
       {
-        "name": "Plum, Octopus, Pork & Nori Monja (梅たこ豚のりもんじゃ)",
+        "name": "Plum, Octopus, Pork & Nori Seaweed Monja (梅たこ豚のりもんじゃ)",
         "price": 1738,
         "description": "Recommended Toppings: Mochi, Egg, Butter"
       },
@@ -90,22 +90,22 @@
         "description": "Recommended Toppings: Soba Noodles, Kimchi"
       },
       {
-        "name": "Pork Belly & Baby Star Ramen Monja (豚バラベビースターもんじゃ)",
+        "name": "Pork Belly & Baby-Star-Ramen Monja (豚バラベビースターもんじゃ)",
         "price": 1408,
         "description": "Recommended Toppings: Mochi, Corn, Cheese"
       },
       {
-        "name": "Pork, Green Onion & Yuzu Kosho Monja (豚ねぎ柚子胡椒もんじゃ)",
+        "name": "Pork, Green Onion & Yuzu Black Pepper Monja (豚ねぎ柚子胡椒もんじゃ)",
         "price": 1628,
         "description": "Recommended Toppings: Chives, Squid Tentacles, Garlic Butter"
       },
       {
-        "name": "Pork, Chive & Egg Monja (豚ニラ玉もんじゃ)",
+        "name": "Pork, Chinese Chive & Egg Monja (豚ニラ玉もんじゃ)",
         "price": 1738,
-        "description": "Recommended Toppings: Mochi, Bean Sprouts, Shredded Nori"
+        "description": "Recommended Toppings: Mochi, Bean Sprouts, Shredded Nori Seaweed"
       },
       {
-        "name": "Pork, Cheese & Baby Star Ramen Monja (豚チーズベビースターもんじゃ)",
+        "name": "Pork, Cheese & Baby-Star-Ramen Monja (豚チーズベビースターもんじゃ)",
         "price": 1738,
         "description": "Recommended Toppings: Potato, Garlic"
       },
@@ -115,7 +115,7 @@
         "description": "Recommended Toppings: Cheese, Special Spice Mix"
       },
       {
-        "name": "Curry, Baby Star Ramen & Corn Monja (カレーベビースターコーンもんじゃ)",
+        "name": "Curry, Baby-Star-Ramen & Corn Monja (カレーベビースターコーンもんじゃ)",
         "price": 1298,
         "description": "Recommended Toppings: Cheese, Special Spice Mix, Soba Noodles"
       },
@@ -157,7 +157,7 @@
       {
         "name": "Clam Chowder Monja (クラムチャウダーもんじゃ)",
         "price": 1518,
-        "description": "Recommended Toppings: Shredded Nori, Soba Noodles, Pork Belly"
+        "description": "Recommended Toppings: Shredded Nori Seaweed, Soba Noodles, Pork Belly"
       },
       {
         "name": "Natto & Kimchi Monja (納豆キムチもんじゃ)",
@@ -190,17 +190,17 @@
         "description": "Recommended Toppings: Shimeji Mushrooms, Mochi"
       },
       {
-        "name": "Gomoku (Five Ingredients) Monja (五目もんじゃ)",
+        "name": "Gomoku(Special) Monja (五目もんじゃ)",
         "price": 1848,
         "description": "Recommended Toppings: Cheese, Wagyu Beef Tendon"
       },
       {
-        "name": "Baby Star Ramen Monja (ベビースターもんじゃ)",
+        "name": "Baby-Star-Ramen Monja (ベビースターもんじゃ)",
         "price": 913,
         "description": "Recommended Toppings: Cheese, Ground Pork, Mochi"
       },
       {
-        "name": "Soba Monja (そばもんじゃ)",
+        "name": "Soba Noodle Monja (そばもんじゃ)",
         "price": 968,
         "description": "Recommended Toppings: Mochi, Corn, Pork Belly"
       },
@@ -231,7 +231,7 @@
       { "name": "Squid & Natto Okonomiyaki (いか納豆玉)", "price": 1408 },
       { "name": "Pork & Kimchi Okonomiyaki (豚キムチ玉)", "price": 1408 },
       {
-        "name": "Clam, Plum & Shiso Okonomiyaki (あさり梅しそ玉)",
+        "name": "Clam, Plum & Perilla Okonomiyaki (あさり梅しそ玉)",
         "price": 1518
       },
       { "name": "Wagyu Beef Tendon Okonomiyaki (和牛すじ玉)", "price": 1738 },
@@ -245,19 +245,25 @@
       { "name": "Plain Okonomiyaki (天玉)", "price": 858 }
     ],
     "men": [
-      { "name": "Okoge Yakisoba (おこげ焼きそば)", "price": 1518 },
-      { "name": "Sauce Yakisoba (ソース焼きそば)", "price": 1078 },
+      { "name": "Okoge Fried Noodles (おこげ焼きそば)", "price": 1518 },
+      { "name": "Sauce Fried Noodles (ソース焼きそば)", "price": 1078 },
       {
-        "name": "Squid Tentacle & Kimchi Yakisoba (げそキムチ焼きそば)",
+        "name": "Squid Tentacle & Kimchi Fried Noodles (げそキムチ焼きそば)",
         "price": 1408
       },
-      { "name": "Pork & Kimchi Yakisoba (豚キムチ焼きそば)", "price": 1408 },
       {
-        "name": "Pork, Green Onion & Salt Yakisoba (豚ねぎ塩焼きそば)",
+        "name": "Pork & Kimchi Fried Noodles (豚キムチ焼きそば)",
+        "price": 1408
+      },
+      {
+        "name": "Pork, Green Onion & Salt Fried Noodles (豚ねぎ塩焼きそば)",
         "price": 1298
       },
-      { "name": "Seafood Yakisoba (海鮮焼きそば)", "price": 1738 },
-      { "name": "Sobameshi (そばめし)", "price": 1188 },
+      { "name": "Seafood Fried Noodles (海鮮焼きそば)", "price": 1738 },
+      {
+        "name": "Sobameshi (Fried Soba Noodles & Rice) (そばめし)",
+        "price": 1188
+      },
       { "name": "Kimchi Sobameshi (キムチそばめし)", "price": 1298 },
       { "name": "Curry Sobameshi (カレーそばめし)", "price": 1298 },
       { "name": "Seafood Sobameshi (海鮮そばめし)", "price": 1738 },
@@ -266,12 +272,12 @@
     ],
 
     "topping": [
-      { "name": "Baby Star Ramen Snack (ベビースター)", "price": 55 },
+      { "name": "Baby-Star-Ramen Snack (ベビースター)", "price": 55 },
       { "name": "Mochi (Rice Cake) (おもち)", "price": 110 },
-      { "name": "Shiso Leaf (Perilla) (大葉)", "price": 110 },
+      { "name": "Perilla (大葉)", "price": 110 },
       { "name": "Egg (卵)", "price": 110 },
       { "name": "Soba Noodles (そば)", "price": 110 },
-      { "name": "Beni Shoga (Pickled Ginger) (紅しょうが)", "price": 110 },
+      { "name": "Pickled Ginger (紅しょうが)", "price": 110 },
       { "name": "Garlic (にんにく)", "price": 110 },
       { "name": "Green Onion (ねぎ)", "price": 110 },
       { "name": "Kirika (Dried Shredded Squid) (切りいか)", "price": 110 },
@@ -279,29 +285,29 @@
       { "name": "Lemon (レモン)", "price": 110 },
       { "name": "Butter (バター)", "price": 110 },
       { "name": "Bean Sprouts (もやし)", "price": 110 },
-      { "name": "Kizami Nori (Shredded Seaweed) (刻み海苔)", "price": 110 },
+      { "name": "Shredded Nori Seaweed (刻み海苔)", "price": 110 },
       { "name": "Mentaiko Butter (明太子バター)", "price": 165 },
       { "name": "Garlic Butter (ガーリックバター)", "price": 165 },
       { "name": "Natto (Fermented Soybeans) (納豆)", "price": 220 },
-      { "name": "Umeboshi (Pickled Plum) (梅干し)", "price": 220 },
-      { "name": "Nira (Chives) (にら)", "price": 220 },
+      { "name": "Pickled Plum (梅干し)", "price": 220 },
+      { "name": "Chinese Chives (にら)", "price": 220 },
       { "name": "Fresh Cream (生クリーム)", "price": 220 },
       { "name": "Rice (ごはん)", "price": 220 },
       { "name": "Tomato (トマト)", "price": 275 },
       {
-        "name": "Aotogarashi Shoyuzuke (Green Chili Pickled in Soy Sauce) (青唐辛子の醤油漬け)",
+        "name": "Green Chili Pickled in Soy Sauce (青唐辛子の醤油漬け)",
         "price": 275
       },
-      { "name": "Curry Jang (Curry Paste) (カレー醤)", "price": 275 },
+      { "name": "Curry Paste (カレー醤)", "price": 275 },
       { "name": "Shimeji Mushrooms (しめじ)", "price": 275 },
       { "name": "Potato (じゃがいも)", "price": 275 },
       { "name": "Cheese (チーズ)", "price": 330 },
       { "name": "Kimchi (キムチ)", "price": 330 },
       {
-        "name": "Ika no Shiokara (Salted Fermented Squid) (イカの塩辛)",
+        "name": "Salted Fermented Squid (イカの塩辛)",
         "price": 330
       },
-      { "name": "Kujo Negi (Kujo Green Onion) (九条ネギ)", "price": 330 },
+      { "name": "Kujo Green Onion (九条ネギ)", "price": 330 },
       { "name": "Fried Garlic (フライドガーリック)", "price": 330 },
       { "name": "Satsuma-age (Fried Fish Cake) (さつま揚げ)", "price": 330 },
       { "name": "Special Mixed Spice (特製ミックススパイス)", "price": 330 },
@@ -312,7 +318,7 @@
       { "name": "Octopus (たこ)", "price": 495 },
       { "name": "Shrimp (えび)", "price": 495 },
       { "name": "Clams (あさり)", "price": 495 },
-      { "name": "Geso (Squid Tentacles) (げそ)", "price": 495 },
+      { "name": "Squid Tentacles (げそ)", "price": 495 },
       { "name": "Squid Ink (いか墨)", "price": 495 },
       { "name": "Scallops (ホタテ)", "price": 550 },
       { "name": "Wagyu Beef Tendon (和牛すじ)", "price": 660 },
@@ -321,7 +327,7 @@
 
     "seasonal": [
       {
-        "name": "Grilled Whole Squid (with Liver Soy Sauce) (いかの丸焼き（肝醤油）)",
+        "name": "Grilled Whole Squid (with Liver Soy Sauce) (いかの丸焼き)",
         "price": 1518,
         "description": "Fresh Japanese flying squid from Toyosu Market is grilled whole with its liver, then finished with butter. The rich flavor of the liver pairs perfectly with beer!"
       },
@@ -375,17 +381,17 @@
             "price": 660
           },
           {
-            "name": "Anzu Bou Sour (Apricot Stick Sour) (あんず棒サワー)",
+            "name": "Anzu-Bou Sour (Apricot Stick Sour) (あんず棒サワー)",
             "price": 660,
             "description": "Uses a whole frozen 'Anzu Bou' apricot stick! Features a refreshing sweetness and nostalgic flavor."
           },
           {
-            "name": "Kuwa Cha High (Mulberry Tea Highball - Tsukishima Specialty) (くわ茶ハイ（月島名物）)",
+            "name": "Kuwa-Cha High (Mulberry Tea Highball - Tsukishima Specialty) (くわ茶ハイ（月島名物）)",
             "price": 660,
             "description": "A Tsukishima specialty! Enjoy the smooth and refreshing taste of mulberry tea."
           },
           {
-            "name": "Denki Bran (電気ブラン)",
+            "name": "Denki-Bran (電気ブラン)",
             "price": 660,
             "description": "A 45% alcohol liqueur born in Asakusa during the Meiji era."
           },
@@ -406,14 +412,14 @@
           { "name": "Hibiki Highball (響ハイボール)", "price": 1485 },
           { "name": "Roku (Gin) Highball (六ハイボール)", "price": 990 },
           {
-            "name": "Fresh Lemon Sour (Not Sweet) (甘くない生レモンサワー)",
+            "name": "Lemon Sour (Not Sweet) (甘くない生レモンサワー)",
             "price": 605
           },
           {
-            "name": "Fresh Lemon Sour (Slightly Sweet) (ちょっと甘いレモンサワー)",
+            "name": "Lemon Sour (Slightly Sweet) (ちょっと甘いレモンサワー)",
             "price": 605
           },
-          { "name": "Sudachi Sour (すだちサワー)", "price": 715 },
+          { "name": "Sudachi Lime Sour (すだちサワー)", "price": 715 },
           {
             "name": "Yoroshiku Senman Sudachu Sour (よろしく千萬すだ酎サワー)",
             "price": 715
@@ -422,9 +428,9 @@
           { "name": "Homemade Matcha Highball (自家製抹茶ハイ)", "price": 660 },
           { "name": "Oolong Highball (ウーロンハイ)", "price": 605 },
           { "name": "Jasmine Highball (ジャスミンハイ)", "price": 605 },
-          { "name": "Honey Yuzu Sour (はちみつ柚子サワー)", "price": 660 },
+          { "name": "Honey & Yuzu Sour (はちみつ柚子サワー)", "price": 660 },
           {
-            "name": "Gari Gari Kun Sour (Ice Pop Sour) (ガリガリ君サワー)",
+            "name": "Gari-Gari-Kun Sour (Ice Pop Sour) (ガリガリ君サワー)",
             "price": 660
           },
           {
@@ -432,7 +438,7 @@
             "price": 660
           },
           {
-            "name": "Umeboshi Sour (Pickled Plum Sour) (梅干しサワー)",
+            "name": "Pickled Plum Sour (梅干しサワー)",
             "price": 660
           }
         ]
@@ -454,22 +460,22 @@
       "fruitWine": {
         "title": "＜Fruit Liqueur＞",
         "items": [
-          { "name": "Houou Biden Ripe Peach (鳳凰美田 完熟桃)", "price": 660 },
+          { "name": "Ripe Peach (鳳凰美田 完熟桃)", "price": 660 },
           {
-            "name": "Houou Biden Wenshu Mandarin Orange (鳳凰美田 温州みかん)",
+            "name": "Wenshu Mandarin Orange (鳳凰美田 温州みかん)",
             "price": 660
           },
           { "name": "La France (Pear Liqueur) (ラフランス)", "price": 660 },
           {
-            "name": "Hakkaisan Nigori Umeshu (Cloudy Plum Wine) (八海山にごり梅酒)",
+            "name": "Cloudy Plum Wine (八海山にごり梅酒)",
             "price": 660
           },
           {
-            "name": "Yamagata Masamune Umeshu (Plum Wine) (山形政宗梅酒)",
+            "name": "Plum Wine (山形政宗梅酒)",
             "price": 715
           },
           {
-            "name": "Nyuuhaku Litchi (Condensed Milk Lychee) (練乳ライチ)",
+            "name": "Condensed Milk Lychee (練乳ライチ)",
             "price": 660
           }
         ]
@@ -506,10 +512,10 @@
         "items": [
           { "name": "Oolong Tea (ウーロン茶)", "price": 330 },
           { "name": "Jasmine Tea (ジャスミン茶)", "price": 330 },
-          { "name": "Calpis (カルピス)", "price": 385 },
+          { "name": "Calpico (カルピス)", "price": 385 },
           { "name": "Orange Juice (オレンジジュース)", "price": 385 },
           { "name": "Apple Juice (アップルジュース)", "price": 385 },
-          { "name": "Ramune (ラムネ)", "price": 385 },
+          { "name": "Ramune (Japanese soda) (ラムネ)", "price": 385 },
           { "name": "Coke (コーラ)", "price": 385 },
           { "name": "Ginger Ale (ジンジャーエール)", "price": 385 }
         ]
@@ -537,7 +543,7 @@
       },
       { "name": "Mozuku Seaweed with Grated Yam (もずくとろろ)", "price": 638 },
       {
-        "name": "Hiyashi Tomato (Chilled Tomato) (冷やしトマト)",
+        "name": "Chilled Tomato (冷やしトマト)",
         "price": 638
       },
       {
@@ -575,7 +581,7 @@
         "price": "528"
       },
       {
-        "name": "Homemade Atsuage (Thick Fried Tofu) (自家製厚揚げ)",
+        "name": "Homemade Thick Fried Tofu (自家製厚揚げ)",
         "price": "638"
       },
       { "name": "Fried Chicken Cartilage (なんこつ唐揚げ)", "price": "858" },
@@ -595,9 +601,12 @@
       },
       { "name": "Butter Corn (バターコーン)", "price": "418" },
       { "name": "Butter Eringi Mushrooms (エリンギバター)", "price": "638" },
-      { "name": "Garlic Foil Yaki (にんにくホイル焼き)", "price": "638" },
       {
-        "name": "Shiokara Jaga Butter (Salted Squid & Potato with Butter) (塩辛じゃがバター)",
+        "name": "Japanese-style Garlic Ajillo (with Sesame Oil) (にんにくホイル焼き)",
+        "price": "638"
+      },
+      {
+        "name": "Salted Squid & Potato with Butter (塩辛じゃがバター)",
         "price": "748"
       },
       { "name": "Grilled Squid Tentacles (げそ焼き)", "price": "858" },
@@ -608,7 +617,7 @@
       { "name": "Pork Toro (Fatty Pork Neck) (豚トロ)", "price": "858" },
       { "name": "Grilled Chicken Cartilage (鳥軟骨焼き)", "price": "968" },
       {
-        "name": "Grilled Chicken Thigh (Honey Mustard) (鶏もも（ハニーマスタード）)",
+        "name": "Grilled Chicken Thigh (Honey Mustard) (鶏もも)",
         "price": "968"
       },
       {
@@ -625,51 +634,52 @@
         "price": "1298"
       },
       {
-        "name": "Mentaiko & Shiitake Mushroom Ajillo (with Baguette) (明太子しいたけアヒージョ（バケット付き）)",
+        "name": "Mentaiko & Shiitake Mushroom Ajillo (with Baguette) (明太子しいたけアヒージョ)",
         "price": "1518"
       },
       { "name": "Extra Baguette (追加バケット)", "price": "308" },
       {
-        "name": "Kajiki Maguro (Marlin) Garlic Steak (カジキマグロガーリックステーキ)",
+        "name": "Marlin Garlic Steak (カジキマグロガーリックステーキ)",
         "price": "1628"
       }
     ],
     "dessert": [
       {
-        "name": "Kuromitsu Kinako Ice Cream (Vanilla) (黒蜜きなこアイス（バニラ）)",
+        "name": "Ice Cream with Kuromitsu & Kinako (Vanilla) (バニラアイス)",
         "price": "605"
       },
       {
-        "name": "Kuromitsu Kinako Ice Cream (Matcha) (黒蜜きなこアイス（抹茶）)",
+        "name": "Ice Cream Kuromitsu & Kinako (Matcha) (抹茶アイス)",
         "price": "605"
       },
       {
-        "name": "Anko Maki (Red Bean Paste Crepe Roll) (あんこ巻き)",
+        "name": "Red Bean Paste Crepe Roll (あんこ巻き)",
         "price": "748"
       },
       {
-        "name": "Matcha Anko Maki (Matcha Red Bean Paste Crepe Roll) (抹茶あんこ巻き)",
+        "name": "Matcha Red Bean Paste Crepe Roll (抹茶あんこ巻き)",
         "price": "858"
       },
       {
-        "name": "Teppan Anko Mochi (Grilled Mochi with Red Bean Paste) (鉄板あんこもち)",
+        "name": "Grilled Mochi with Red Bean Paste (鉄板あんこもち)",
         "price": "858"
       },
       {
-        "name": "Ice Cream Topping (Vanilla / Matcha) (トッピングアイス（バニラ・抹茶）)",
+        "name": "Ice Cream Topping (Vanilla / Matcha) (トッピングアイス)",
         "price": "275"
       }
     ]
   },
 
   "History": {
-    "title1": "  ＜The History of Monjayaki＞",
+    "backToLang": "←Menu",
+    "title1": "  The History of Monjayaki",
     "EXPLANATION_PARAGRAPH1": " Monja is a dish in which ingredients are mixed with flour that has been loosely dissolved in water, baked on a griddle, and eaten hot with a spatula for each person. The origin of monja dates back to the late Edo period (1603-1867), when it was sold as an affordable snack in front of a candy shop in Tsukishima. Around the 1950s, when food was scarce, simple monjayaki, made by dissolving udon flour and adding soy sauce and syrup, was widely popular among children. From the end of the Edo period to the Meiji era (1868-1912), when supplies were scarce, children who did not have easy access to paper and calligraphy tools would write letters on a griddle with dough made from wheat flour dissolved in water to teach and play with, hence the name 「mojiyaki」 The word「moji」transformed into 「monja」and eventually 「monja」 . With the postwar economic growth, monja evolved by adding ingredients such as cabbage, corn and fried eggs, but at the same time, the number of dagashiya, which children had grown familiar with, declined dramatically. Several monjayaki stores sprang up in an attempt to preserve the taste familiar from childhood, and monjayaki has transformed into a snack for adults, and continues to this day. The essential ingredients for monjayaki are a teppan and a spatula. Monjayaki is usually eaten by scooping a small amount from the outside of the dough and pressing it against the teppan to char it, but nowadays there are so many different variations of ingredients that one can enjoy a variety of tastes and monja textures.",
 
-    "title2": "  ＜Why Make a 「Dote」(Dough Ring)＞",
+    "title2": "  Why Make a 「Dote」(Dough Ring)",
     "EXPLANATION_PARAGRAPH2": "When it comes to monjayaki, many people immediately think of the dote (a dough ring). But why is it necessary? Isn’t it the same if you just mix everything together? In fact, you can make monjayaki with or without the dote! The dote was originally invented as a 「trick」 to prevent the watery batter from spilling over the edge of the griddle. While modern griddles have raised edges, making a dote is no longer essential. However, it remains a part of Tokyo culture, a remnant of the past! Creating the dote adds an element of excitement and fun, especially when you wonder if the batter will spill over or not. It's a playful touch from the old town and adds to the charm of making monjayaki. Additionally, the dote helps balance the moisture from the cabbage and thickens the batter, enhancing the overall flavor. For the perfect monjayaki experience, leave the details to the professionals at Moheji! ",
 
-    "title3": " ＜How to Make Monjayaki＞",
+    "title3": " How to Make Monjayaki",
     "EXPLANATION_PARAGRAPH3": "*At our restaurant, our staff will make the monjayaki for you.",
     "EXPLANATION_PARAGRAPH4": "①[Prepare the griddle] Spread an appropriate amount of oil using a large spatula. Dropa small amount of the batter onto the griddle, and heat it until it sizzles.",
     "EXPLANATION_PARAGRAPH5": "②[Cook the ingredients] Place the pork, squid, rice cakes, and other ingredients onto the griddle and lightly stir-fry them.",

@@ -1,17 +1,17 @@
 import { getRequestConfig } from "next-intl/server";
-import { hasLocale } from "next-intl";
 import { routing } from "./routing";
 
+type Locale = (typeof routing.locales)[number];
+
 export default getRequestConfig(async ({ requestLocale }) => {
-  // Typically corresponds to the `[locale]` segment
-  const requested = await requestLocale;
-  const locale = hasLocale(routing.locales, requested)
-    ? requested
-    : routing.defaultLocale;
+  let locale: Locale = (await requestLocale) as Locale;
+
+  if (!locale || !routing.locales.includes(locale)) {
+    locale = routing.defaultLocale;
+  }
 
   return {
     locale,
-    //! ドキュメントに加え、以下のコードの追加が必要。
     messages: (await import(`../../messages/${locale}.json`)).default,
   };
 });
