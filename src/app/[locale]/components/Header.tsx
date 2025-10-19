@@ -26,33 +26,38 @@ export default function Header() {
           </div>
         </Link>
 
-        <details className="flex flex-col justify-center items-center dropdown dropdown-end m-[15px] relative">
+        <Link href={"/"}>
+          <div className="flex justify-center items-center ml-[15px] mr-[25px] my-[35px] text-white text-lg">
+            <GrLanguage className="h-[40px] w-[40px] text-white" />
+          </div>
+        </Link>
+
+        {/* <details className="flex flex-col justify-center items-center dropdown dropdown-end m-[15px] relative">
           <summary className="list-none [&::-webkit-details-marker]:hidden">
-            <GrLanguage className="h-[50px] w-[50px] text-white" />
           </summary>
-          <ul className="dropdown-content menu bg-gray-100 text-black z-[1] w-[100px] p-2 shadow absolute right-0 mt-2">
+          <ul className="dropdown-content menu bg-gray-300 font-bold text-black z-[1] px-[40px] py-[30px] rounded-[30px] p-2 shadow absolute right-0 mt-2 space-y-[20px]">
             <li onClick={() => setLangMenuOpen(false)}>
-              <Link href="/" locale="ja">
+              <Link href="/menu" locale="ja">
                 {t("button22")}
               </Link>
             </li>
             <li onClick={() => setLangMenuOpen(false)}>
-              <Link href="/" locale="en">
+              <Link href="/menu" locale="en">
                 {t("button21")}
               </Link>
             </li>
             <li onClick={() => setLangMenuOpen(false)}>
-              <Link href="/" locale="zh">
+              <Link href="/menu" locale="zh">
                 {t("button23")}
               </Link>
             </li>
             <li onClick={() => setLangMenuOpen(false)}>
-              <Link href="/" locale="ko">
+              <Link href="/menu" locale="ko">
                 {t("button24")}
               </Link>
             </li>
           </ul>
-        </details>
+        </details> */}
       </div>
     </header>
   );
