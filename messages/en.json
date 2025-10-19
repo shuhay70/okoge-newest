@@ -337,7 +337,25 @@
         "description": "Plump and fatty!"
       },
       {
-        "name": "Whelk & Potato with Butter (つぶ貝じゃがバター)",
+        "name": "Pacific Saury and Maitake Mushroom Ajillo (with Baguette) (秋刀魚と舞茸のアヒージョ)",
+        "price": 1628,
+        "description": "Fragrant Pacific saury and maitake mushrooms stewed in garlic olive oil (Ajillo). Served with baguette slices for dipping."
+      },
+      {
+        "name": "Whelk and Maitake Mushrooms sauteed with Butter (つぶ貝舞茸バター)",
+        "price": 1078,
+        "description": "A rich and savory dish of chewy whelk (sea snail) and maitake mushrooms sauteed in butter and soy sauce."
+      },
+      {
+        "name": "Scallop, Corn, & Cream Monjayaki (ホタテコーンクリームもんじゃ)",
+        "price": 1848
+      },
+      {
+        "name": "Chestnut & Grilled Rice Cake with Red Bean Paste  (栗のあんこもち)",
+        "price": 1078
+      },
+      {
+        "name": "Sweet Potato and Sweet Red Bean Paste Roll (スイートポテトのあんこ巻き)",
         "price": 968
       }
     ],
