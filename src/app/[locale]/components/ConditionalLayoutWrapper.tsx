@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname } from "next/navigation";
+import { usePathname } from "@/i18n/routing";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -10,8 +10,7 @@ type Props = {
 
 export default function ConditionalLayoutWrapper({ children }: Props) {
   const pathname = usePathname();
-  const pathSegments = pathname.split("/").filter(Boolean);
-  const isHomePage = pathSegments.length === 1;
+  const isHomePage = pathname === "/";
 
   return (
     <>
