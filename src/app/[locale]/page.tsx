@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col items-center bg-[#505938] h-full">
+    <div className="flex flex-col items-center bg-[#505938] min-h-screen">
       <Image
         className="lg:pl-[20px] lg:w-auto lg:h-auto my-[30px]"
         src="/image/logo.jpg"
