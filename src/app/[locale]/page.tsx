@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col items-center bg-[#505938] h-screen">
+    <div className="flex flex-col items-center bg-[#505938] h-full">
       <Image
         className="lg:pl-[20px] lg:w-auto lg:h-auto my-[30px]"
         src="/image/logo.jpg"
@@ -11,7 +11,7 @@ export default function HomePage() {
         height={220}
         alt="おこげのロゴ"
       ></Image>
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full mb-[50px]">
         <Link
           href="/menu"
           locale="ja"
