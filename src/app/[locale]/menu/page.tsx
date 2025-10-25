@@ -54,18 +54,27 @@ export default function MenuPage() {
   const isDrinkCategory = selectedCategoryKey === "drink";
 
   return (
-    <div className="pt-[30px]">
+    <div className="pt-[18px]">
       {/* --- 既存の「もんじゃの歴史・焼き方」ボタン (変更なし) --- */}
       <div className="flex justify-center">
         <Link
-          className="flex justify-center text-lg border-[3px] border-[#97B486] rounded-[20px] py-[20px] px-[20px] mx-[40px]"
+          className="flex justify-center text-lg border-[3px] border-[#97B486] rounded-[20px] py-[15px] px-[20px] mb-[15px] w-[320px]"
           href={"/history"}
         >
           <FaBook className="mr-[10px] mt-[5px]" />
           {t("title")}
         </Link>
       </div>
-      <p className="border-[1px] border-[#97B486] mt-[30px]"></p>
+      <div className="flex justify-center">
+        <Link
+          className="flex justify-center text-lg border-[3px] border-[#97B486] rounded-[20px] py-[15px] px-[20px] w-[320px]"
+          href={"/HowToMake"}
+        >
+          <FaBook className="mr-[10px] mt-[5px]" />
+          {t("title1")}
+        </Link>
+      </div>
+      <p className="border-[1px] border-[#97B486] mt-[18px]"></p>
 
       {/* --- カテゴリスクロール --- */}
       <div className="h-[80px] flex items-center overflow-x-auto whitespace-nowrap px-[15px] space-x-[10px]">
@@ -86,9 +95,7 @@ export default function MenuPage() {
       <p className="border-[1px] border-[#97B486]"></p>
 
       {/* --- メニュー一覧表示 --- */}
-      <h2 className="text-2xl font-bold text-center py-6 bg-[#f4f5f2]">
-        {tCategory(selectedCategoryKey)}
-      </h2>
+      <h2 className="text-2xl font-bold text-center py-[15px] bg-[#f4f5f2]"></h2>
 
       <div className="px-4 space-y-4 pb-[50px] bg-[#f4f5f2]">
         {/* --- ドリンクカテゴリの場合の表示 --- */}

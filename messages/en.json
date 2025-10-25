@@ -1,7 +1,7 @@
 {
   "HomePage": {
     "title": "History & How to Cook Monja",
-    "title1": "Hello world!"
+    "title1": " How to make Okonomiyaki"
   },
 
   "Categories": {
@@ -614,7 +614,7 @@
     ],
     "teppanyaki": [
       {
-        "name": "Teppan Edamame with Garlic Butter (鉄板枝豆ガーリックバター)",
+        "name": "Grilled Edamame with Garlic Butter (鉄板枝豆ガーリックバター)",
         "price": "528"
       },
       { "name": "Butter Corn (バターコーン)", "price": "418" },
@@ -639,7 +639,7 @@
         "price": "968"
       },
       {
-        "name": "Grilled Chicken Seseri (Neck Meat) (鳥せせり焼き)",
+        "name": "Grilled Chicken Neck Meat (鳥せせり焼き)",
         "price": "1078"
       },
       {
@@ -698,18 +698,24 @@
     "EXPLANATION_PARAGRAPH2": "When it comes to monjayaki, many people immediately think of the dote (a dough ring). But why is it necessary? Isn’t it the same if you just mix everything together? In fact, you can make monjayaki with or without the dote! The dote was originally invented as a 「trick」 to prevent the watery batter from spilling over the edge of the griddle. While modern griddles have raised edges, making a dote is no longer essential. However, it remains a part of Tokyo culture, a remnant of the past! Creating the dote adds an element of excitement and fun, especially when you wonder if the batter will spill over or not. It's a playful touch from the old town and adds to the charm of making monjayaki. Additionally, the dote helps balance the moisture from the cabbage and thickens the batter, enhancing the overall flavor. For the perfect monjayaki experience, leave the details to the professionals at Moheji! ",
 
     "title3": " How to Make Monjayaki",
+    "title4": " How to make Okonomiyaki",
     "EXPLANATION_PARAGRAPH3": "*At our restaurant, our staff will make the monjayaki for you.",
-    "EXPLANATION_PARAGRAPH4": "①[Prepare the griddle] Spread an appropriate amount of oil using a large spatula. Dropa small amount of the batter onto the griddle, and heat it until it sizzles.",
-    "EXPLANATION_PARAGRAPH5": "②[Cook the ingredients] Place the pork, squid, rice cakes, and other ingredients onto the griddle and lightly stir-fry them.",
+    "EXPLANATION_PARAGRAPH4": "[Prepare the griddle] Spread an appropriate amount of oil using a large spatula. Dropa small amount of the batter onto the griddle, and heat it until it sizzles.",
+    "EXPLANATION_PARAGRAPH5": "[Cook the ingredients] Place the pork, squid, rice cakes, and other ingredients onto the griddle and lightly stir-fry them.",
 
-    "EXPLANATION_PARAGRAPH6": "③[Add the remaining ingredients]Add the remaining ingredients Drop the remaining ingredients from the bowl onto the griddle (be careful not to spill the broth, as it may burn).",
+    "EXPLANATION_PARAGRAPH6": "[Add the remaining ingredients]Add the remaining ingredients Drop the remaining ingredients from the bowl onto the griddle (be careful not to spill the broth, as it may burn).",
 
-    "EXPLANATION_PARAGRAPH7": "④[Cook the cabbage] Stir-fry the cabbage until it becomes tender, using a cutting motion.",
-    "EXPLANATION_PARAGRAPH8": "⑤[Create the dote (dough ring)] Once the cabbage has softened, form a circular dote (dough ring) around the ingredients. The key is to make sure the broth  doesn’t spill out.",
+    "EXPLANATION_PARAGRAPH7": "[Cook the cabbage] Stir-fry the cabbage until it becomes tender, using a cutting motion.",
+    "EXPLANATION_PARAGRAPH8": "[Create the dote (dough ring)] Once the cabbage has softened, form a circular dote (dough ring) around the ingredients. The key is to make sure the broth  doesn’t spill out.",
 
-    "EXPLANATION_PARAGRAPH9": "⑥[Add the broth] Pour the remaining broth into the center of the dote. Pour it gently to avoid spilling. After a while, the broth will start to bubble inside the dote.",
+    "EXPLANATION_PARAGRAPH9": "[Add the broth] Pour the remaining broth into the center of the dote. Pour it gently to avoid spilling. After a while, the broth will start to bubble inside the dote.",
 
-    "EXPLANATION_PARAGRAPH10": "⑦[Mix everything together] Gradually mix the inside and outside of the dote together. Once everything is combined, lower the heat and spread it thinly to complete the dish. Top with your choice of toppings like aonori (green seaweed) or cheese!"
+    "EXPLANATION_PARAGRAPH10": "[Mix everything together] Gradually mix the inside and outside of the dote together. Once everything is combined, lower the heat and spread it thinly to complete the dish. Top with your choice of toppings like aonori (green seaweed) or cheese!",
+    "EXPLANATION_PARAGRAPH12": "Grease a heated griddle and first place your okonomiyaki ingredients (seafood, pork, etc.) on it. Afterwards, lightly mix the batter, cabbage, and egg in a bowl, ensuring to incorporate air.",
+    "EXPLANATION_PARAGRAPH13": "Pour half of the batter onto the griddle and spread it into a circle. Place the ingredients from earlier on top of the batter. Please pour the remaining batter over the ingredients.",
+    "EXPLANATION_PARAGRAPH14": "Wait for about 4-5 minutes. When the edges of the batter have firmed up and the underside is nicely browned, use the spatulas to flip it over all at once.",
+    "EXPLANATION_PARAGRAPH15": "Wait another 4-5 minutes after flipping. Allow it to cook thoroughly to the center without pressing down with the spatula.",
+    "EXPLANATION_PARAGRAPH16": "Finally, top it with sauce, mayonnaise, bonito flakes, and green seaweed (aonori) to your liking. It's complete. (A staff member will bring the sauces, so please call for staff.)"
   },
 
   "Header": {
