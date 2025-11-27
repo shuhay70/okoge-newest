@@ -1,39 +1,39 @@
-"use client"
+"use client";
 
-import { useEffect, useState } from "react"
-import { useParams } from "next/navigation"
-import { supabase, Order } from "@/lib/supabase"
-import { useTranslations } from "next-intl"
-import { FaCheckCircle, FaClipboardList } from "react-icons/fa"
-import { Link } from "@/i18n/routing"
+import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
+import { supabase, Order } from "@/lib/supabase";
+import { useTranslations } from "next-intl";
+import { FaCheckCircle, FaClipboardList } from "react-icons/fa";
+import { Link } from "@/i18n/routing";
 
 export default function OrderConfirmationPage() {
-  const params = useParams()
-  const orderId = params.orderId as string
-  const t = useTranslations("OrderConfirmation")
-  const [order, setOrder] = useState<Order | null>(null)
-  const [loading, setLoading] = useState(true)
+  const params = useParams();
+  const orderId = params.orderId as string;
+  const t = useTranslations("OrderConfirmation");
+  const [order, setOrder] = useState<Order | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchOrder()
-  }, [orderId])
+    fetchOrder();
+  }, [orderId]);
 
   const fetchOrder = async () => {
     try {
       const { data, error } = await supabase
-        .from('orders')
-        .select('*')
-        .eq('id', orderId)
-        .single()
+        .from("orders")
+        .select("*")
+        .eq("id", orderId)
+        .single();
 
-      if (error) throw error
-      setOrder(data)
+      if (error) throw error;
+      setOrder(data);
     } catch (error) {
-      console.error("Error fetching order:", error)
+      console.error("Error fetching order:", error);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   if (loading) {
     return (
@@ -43,7 +43,7 @@ export default function OrderConfirmationPage() {
           <p className="mt-4 text-gray-600">読み込み中...</p>
         </div>
       </div>
-    )
+    );
   }
 
   if (!order) {
@@ -51,12 +51,15 @@ export default function OrderConfirmationPage() {
       <div className="min-h-screen bg-[#f4f5f2] flex items-center justify-center p-4">
         <div className="bg-white rounded-lg p-8 text-center max-w-md">
           <p className="text-red-500 text-lg">注文が見つかりませんでした</p>
-          <Link href="/menu" className="mt-4 inline-block text-[#0d3859] underline">
+          <Link
+            href="/menu"
+            className="mt-4 inline-block text-[#0d3859] underline"
+          >
             メニューに戻る
           </Link>
         </div>
       </div>
-    )
+    );
   }
 
   return (
@@ -68,9 +71,7 @@ export default function OrderConfirmationPage() {
           <h1 className="text-2xl font-bold text-green-700 mb-2">
             {t("successTitle")}
           </h1>
-          <p className="text-green-600">
-            {t("successMessage")}
-          </p>
+          <p className="text-green-600">{t("successMessage")}</p>
         </div>
 
         {/* 店員への指示 */}
@@ -96,7 +97,10 @@ export default function OrderConfirmationPage() {
 
           <div className="space-y-3 mb-6">
             {order.items.map((item, idx) => (
-              <div key={idx} className="flex justify-between items-center border-b pb-3">
+              <div
+                key={idx}
+                className="flex justify-between items-center border-b pb-3"
+              >
                 <div className="flex-1">
                   <p className="font-semibold text-lg">{item.name}</p>
                   <p className="text-gray-600">
@@ -122,14 +126,14 @@ export default function OrderConfirmationPage() {
 
         {/* アクションボタン */}
         <div className="mt-[50px]">
-          <Link 
+          <Link
             href="/menu"
-            className="block w-full bg-[#0d3859] text-white py-4 rounded-lg font-bold text-lg text-center hover:bg-[#0d3859]/90 transition-colors"
+            className="block w-fullbg-[#505938] text-white py-4 rounded-lg font-bold text-lg text-center hover:bg-[#0d3859]/90 transition-colors"
           >
             {t("backToMenu")}
           </Link>
         </div>
       </div>
     </div>
-  )
+  );
 }

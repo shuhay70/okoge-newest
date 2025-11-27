@@ -20,21 +20,21 @@ export default function HomePage() {
           日本語
         </Link>
         <Link
-          href="/menu"
+          href="/survey"
           locale="en"
           className="text-center text-2xl bg-white text-black mx-[40px] py-[25px] rounded-md hover:bg-white/20 transition-colors mb-[20px]"
         >
           ENGLISH
         </Link>
         <Link
-          href="/menu"
+          href="/survey"
           locale="zh"
           className="text-center text-2xl bg-white text-black mx-[40px] py-[25px] rounded-md hover:bg-white/20 transition-colors mb-[20px]"
         >
           中文
         </Link>
         <Link
-          href="/menu"
+          href="/survey"
           locale="ko"
           className="text-center text-2xl bg-white text-black mx-[40px] py-[25px] rounded-md hover:bg-white/20 transition-colors mb-[20px]"
         >

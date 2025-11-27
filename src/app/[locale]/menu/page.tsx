@@ -54,9 +54,9 @@ export default function MenuPage() {
   return (
     <div className="pt-[18px]">
       {/* カートアイコン */}
-      <div className="fixed top-4 right-4 z-50">
+      <div className="fixed bottom-4 right-4 z-50">
         <Link href="/cart" className="relative">
-          <div className="bg-[#0d3859] text-white p-4 rounded-full shadow-lg hover:bg-[#0d3859]/90 transition-colors">
+          <div className="bg-[#507938] text-white p-4 rounded-full shadow-lg hover:bg-[#505938]/90 transition-colors">
             <FaShoppingCart className="w-6 h-6" />
             {totalItems > 0 && (
               <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold">
@@ -133,7 +133,7 @@ export default function MenuPage() {
                           </p>
                           <button
                             onClick={() => handleAddToCart(item)}
-                            className="bg-[#0d3859] text-white px-4 py-2 rounded-lg hover:bg-[#0d3859]/90 transition-colors"
+                            className="bg-[#505938] text-white px-4 py-2 rounded-lg hover:bg-[#505938]/90 transition-colors"
                           >
                             {tMenu("addToCart")}
                           </button>
@@ -164,7 +164,7 @@ export default function MenuPage() {
                   </p>
                   <button
                     onClick={() => handleAddToCart(item)}
-                    className="bg-[#0d3859] text-white px-4 py-2 rounded-lg hover:bg-[#0d3859]/90 transition-colors text-sm"
+                    className="bg-[#505938] text-white px-4 py-2 rounded-lg hover:bg-[#505938]/90 transition-colors text-sm"
                   >
                     {tMenu("addToCart")}
                   </button>

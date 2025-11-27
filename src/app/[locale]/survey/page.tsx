@@ -1,84 +1,78 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { useRouter } from "@/i18n/routing"
-import { supabase } from "@/lib/supabase"
-import { useTranslations } from "next-intl"
+import { useState } from "react";
+import { useRouter } from "@/i18n/routing";
+import { supabase } from "@/lib/supabase";
+import { useTranslations } from "next-intl";
 
 export default function SurveyPage() {
-  const t = useTranslations("Survey")
-  const router = useRouter()
-  const [number, setNumber] = useState("")
-  const [country, setCountry] = useState("")
-  const [reason, setReason] = useState("")
-  const [isFirstTime, setIsFirstTime] = useState<boolean | null>(null)
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  
-  const numbers = [
-    "1","2","3","4","5","6","7","8","9","10","11"
-  ]
-  const countries = [
-    "South Korea", 
-        "China", 
-        "Taiwan", 
-        "USA", 
-        "Hong Kong", 
-        "Germany", 
-        "France", 
-        "UK",
-        "Australia",
-        "Canada", 
-        "Italy", 
-        "Spain", 
-        "Thailand", 
-        "Philippines", 
-        "Singapore", 
-        "Malaysia", 
-        "Indonesia", 
-        "India", 
-        "Vietnam", 
-        "Mexico",
-        "Japan", 
-        "Other"
-  ]
+  const t = useTranslations("Survey");
+  const router = useRouter();
+  const [number, setNumber] = useState("");
+  const [country, setCountry] = useState("");
+  const [reason, setReason] = useState("");
+  const [isFirstTime, setIsFirstTime] = useState<boolean | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const reasons = [
-    "1","2","3","4","5","6","7","8","9","10","11"
-  ]
+  const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"];
+  const countries = [
+    "South Korea",
+    "China",
+    "Taiwan",
+    "USA",
+    "Hong Kong",
+    "Germany",
+    "France",
+    "UK",
+    "Australia",
+    "Canada",
+    "Italy",
+    "Spain",
+    "Thailand",
+    "Philippines",
+    "Singapore",
+    "Malaysia",
+    "Indonesia",
+    "India",
+    "Vietnam",
+    "Mexico",
+    "Japan",
+    "Other",
+  ];
+
+  const reasons = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"];
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    
+    e.preventDefault();
+
     if (!reason || !country || !number || isFirstTime === null) {
-      alert(t("pleaseComplete"))
-      return
+      alert(t("pleaseComplete"));
+      return;
     }
 
-    setIsSubmitting(true)
+    setIsSubmitting(true);
 
     try {
-      const { error } = await supabase
-        .from('surveys')
-        .insert([
-          {
-            country,
-            reason,
-            number_of_people: number, 
-            is_first_time: isFirstTime 
-          }
-        ])
+      const { error } = await supabase.from("surveys").insert([
+        {
+          country,
+          reason,
+          number_of_people: number,
+          is_first_time: isFirstTime,
+        },
+      ]);
 
-      if (error) throw error
+      if (error) throw error;
 
       // 注文画面へ遷移
-      router.push("/menu")
+      router.push("/menu");
     } catch (error) {
-      console.error("Error submitting survey:", error)
-      alert(t("submitError"))
+      console.error("Error submitting survey:", error);
+      alert(t("submitError"));
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
 
   return (
     <div className="min-h-screen bg-[#f4f5f2] flex items-center justify-center p-4">
@@ -88,8 +82,8 @@ export default function SurveyPage() {
         </h1>
 
         <form onSubmit={handleSubmit} className="space-y-[45px]">
-           {/* 人数選択 */}
-           <div>
+          {/* 人数選択 */}
+          <div>
             <label className="block text-lg font-semibold mb-3">
               {t("numberQuestion")}
             </label>
@@ -134,19 +128,19 @@ export default function SurveyPage() {
               {t("Question1")}
             </label>
             <div className="space-y-2">
-            <select
-              value={reason}
-              onChange={(e) => setReason(e.target.value)}
-              className="w-full p-3 border-2 border-gray-300 rounded-lg focus:border-[#0d3859] focus:outline-none"
-              required
-            >
-              <option value="">{t("selectCReason")}</option>
-              {reasons.map((c) => (
-                <option key={c} value={c}>
-                  {t(`reasons.${c}`)}
-                </option>
-              ))}
-            </select>
+              <select
+                value={reason}
+                onChange={(e) => setReason(e.target.value)}
+                className="w-full p-3 border-2 border-gray-300 rounded-lg focus:border-[#0d3859] focus:outline-none"
+                required
+              >
+                <option value="">{t("selectCReason")}</option>
+                {reasons.map((c) => (
+                  <option key={c} value={c}>
+                    {t(`reasons.${c}`)}
+                  </option>
+                ))}
+              </select>
             </div>
           </div>
 
@@ -185,12 +179,12 @@ export default function SurveyPage() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#0d3859] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#0d3859]/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="w-full bg-[#505938] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#0d3859]/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             {isSubmitting ? t("submitting") : t("submit")}
           </button>
         </form>
       </div>
     </div>
-  )
+  );
 }
