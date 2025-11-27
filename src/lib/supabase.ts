@@ -1,22 +1,18 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+const supabaseUrl = 'https://cxpyennhhpktezblzlke.supabase.co' 
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN4cHllbm5oaHBrdGV6Ymx6bGtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQyNjAxNTcsImV4cCI6MjA3OTgzNjE1N30.J8fS5lRfHfnwNzdC9DsqSim9xo_LohiaXxgcD4RnkOY'
 
-// デバッグ用: ブラウザのコンソールに環境変数の状態を表示
+// デバッグログ
 if (typeof window !== 'undefined') {
-  console.log('🔧 Supabase Config Check:', {
-    url: supabaseUrl ? `Set (Starts with ${supabaseUrl.substring(0, 8)}...)` : 'MISSING ❌',
+  console.log('🔧 Hardcode Check:', {
+    url: supabaseUrl,
     key: supabaseAnonKey ? 'Set ✅' : 'MISSING ❌'
   })
 }
 
-
-const urlToUse = supabaseUrl || 'https://placeholder.supabase.co'
-const keyToUse = supabaseAnonKey || 'placeholder-key'
-
-export const supabase = createClient(urlToUse, keyToUse)
-
+// 確実にURLが入っている状態でクライアントを作成
+export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 export type Survey = {
   id: string
   country: string
