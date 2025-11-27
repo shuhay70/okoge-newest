@@ -1,12 +1,22 @@
-//  Supabaseクライアントの設定
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+// デバッグ用: ブラウザのコンソールに環境変数の状態を表示
+if (typeof window !== 'undefined') {
+  console.log('🔧 Supabase Config Check:', {
+    url: supabaseUrl ? `Set (Starts with ${supabaseUrl.substring(0, 8)}...)` : 'MISSING ❌',
+    key: supabaseAnonKey ? 'Set ✅' : 'MISSING ❌'
+  })
+}
 
-// 型定義
+
+const urlToUse = supabaseUrl || 'https://placeholder.supabase.co'
+const keyToUse = supabaseAnonKey || 'placeholder-key'
+
+export const supabase = createClient(urlToUse, keyToUse)
+
 export type Survey = {
   id: string
   country: string
