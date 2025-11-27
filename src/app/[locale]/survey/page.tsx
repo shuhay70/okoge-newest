@@ -1,11 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect  } from "react";
 import { useRouter } from "@/i18n/routing";
 import { supabase } from "@/lib/supabase";
 import { useTranslations } from "next-intl";
 
 export default function SurveyPage() {
+  useEffect(() => {
+    console.log('🔍 ENV CHECK:')
+    console.log('SUPABASE_URL:', process.env.NEXT_PUBLIC_SUPABASE_URL)
+    console.log('SUPABASE_ANON_KEY exists:', !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)
+  }, [])
   const t = useTranslations("Survey");
   const router = useRouter();
   const [number, setNumber] = useState("");
