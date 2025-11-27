@@ -1,19 +1,18 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+const supabaseUrl = 'https://cxpyennhhpktezblzlke.supabase.co' 
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN4cHllbm5oaHBrdGV6Ymx6bGtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQyNjAxNTcsImV4cCI6MjA3OTgzNjE1N30.J8fS5lRfHfnwNzdC9DsqSim9xo_LohiaXxgcD4RnkOY'
 
-if (!supabaseUrl || !supabaseAnonKey) {
-  if (typeof window !== 'undefined') {
-    console.error('⚠️ Supabase environment variables are missing! Please check Vercel settings.');
-  }
+// デバッグログ
+if (typeof window !== 'undefined') {
+  console.log('🔧 Hardcode Check:', {
+    url: supabaseUrl,
+    key: supabaseAnonKey ? 'Set ✅' : 'MISSING ❌'
+  })
 }
 
-export const supabase = createClient(
-  supabaseUrl || '', 
-  supabaseAnonKey || ''
-)
-
+// 確実にURLが入っている状態でクライアントを作成
+export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 export type Survey = {
   id: string
   country: string
