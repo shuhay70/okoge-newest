@@ -1,53 +1,54 @@
-"use client"
+"use client";
 
-import { useTranslations } from "next-intl"
-import { supabase } from "@/lib/supabase"
-import { FaTrash, FaPlus, FaMinus } from "react-icons/fa"
-import { useCart } from "@/contexts/CartContext"
-import { useState } from "react"
-import { useRouter } from "@/i18n/routing"
+import { useTranslations } from "next-intl";
+import { supabase } from "@/lib/supabase";
+import { FaTrash, FaPlus, FaMinus } from "react-icons/fa";
+import { useCart } from "@/contexts/CartContext";
+import { useState } from "react";
+import { useRouter } from "@/i18n/routing";
 
 export default function CartPage() {
-  const t = useTranslations("Cart")
-  const { cartItems, updateQuantity, removeFromCart, clearCart, totalPrice } = useCart()
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const router = useRouter()
+  const t = useTranslations("Cart");
+  const { cartItems, updateQuantity, removeFromCart, clearCart, totalPrice } =
+    useCart();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const router = useRouter();
 
   const handleSubmitOrder = async () => {
     if (cartItems.length === 0) {
-      alert(t("cartEmpty"))
-      return
+      alert(t("cartEmpty"));
+      return;
     }
 
-    setIsSubmitting(true)
+    setIsSubmitting(true);
 
     try {
       const { data, error } = await supabase
-        .from('orders')
+        .from("orders")
         .insert([
           {
             items: cartItems,
             total_price: totalPrice,
-            status: 'pending'
-          }
+            status: "pending",
+          },
         ])
         .select()
-        .single()
+        .single();
 
-      if (error) throw error
+      if (error) throw error;
 
-      console.log("Order created:", data) // デバッグ用
-      
+      console.log("Order created:", data); // デバッグ用
+
       // 注文IDを持って確認画面へ遷移
-      clearCart()
-      router.push(`/order-confirmation/${data.id}`)
+      clearCart();
+      router.push(`/order-confirmation/${data.id}`);
     } catch (error) {
-      console.error("Error submitting order:", error)
-      alert(t("orderError"))
+      console.error("Error submitting order:", error);
+      alert(t("orderError"));
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
 
   return (
     <div className="min-h-screen bg-[#f4f5f2] p-4">
@@ -64,7 +65,7 @@ export default function CartPage() {
           <>
             <div className="space-y-4 mb-6">
               {cartItems.map((item) => (
-                <div 
+                <div
                   key={item.name}
                   className="bg-white rounded-lg p-4 shadow flex items-center justify-between"
                 >
@@ -77,7 +78,9 @@ export default function CartPage() {
 
                   <div className="flex items-center space-x-3">
                     <button
-                      onClick={() => updateQuantity(item.name, item.quantity - 1)}
+                      onClick={() =>
+                        updateQuantity(item.name, item.quantity - 1)
+                      }
                       className="p-2 bg-gray-200 rounded-full hover:bg-gray-300"
                     >
                       <FaMinus />
@@ -86,7 +89,9 @@ export default function CartPage() {
                       {item.quantity}
                     </span>
                     <button
-                      onClick={() => updateQuantity(item.name, item.quantity + 1)}
+                      onClick={() =>
+                        updateQuantity(item.name, item.quantity + 1)
+                      }
                       className="p-2 bg-gray-200 rounded-full hover:bg-gray-300"
                     >
                       <FaPlus />
@@ -113,7 +118,7 @@ export default function CartPage() {
               <button
                 onClick={handleSubmitOrder}
                 disabled={isSubmitting}
-                className="w-full bg-[#0d3859] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#0d3859]/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                className="w-full bg-[#505938] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#505938]/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
                 {isSubmitting ? t("submitting") : t("placeOrder")}
               </button>
@@ -122,5 +127,5 @@ export default function CartPage() {
         )}
       </div>
     </div>
-  )
+  );
 }
