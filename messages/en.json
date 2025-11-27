@@ -686,7 +686,9 @@
         "name": "Ice Cream Topping (Vanilla / Matcha) (トッピングアイス)",
         "price": "275"
       }
-    ]
+    ],
+     "addToCart": "Add to Cart",
+    "added": "Added"
   },
 
   "History": {
@@ -733,5 +735,93 @@
     "ex21": "Our management philosophy blends tradition and innovation. Our vision is to spread 'Tokyo culture to the world.' We believe in delivering the best-tasting food to our customers and sharing Tokyo's culinary culture globally. To achieve this, we aim to provide unforgettable dining experiences as professionals in the culinary field.",
     "ex22": "In addition to running specialty monjayaki restaurants, we operate retail businesses selling seafood and traditional Japanese side dishes.",
     "ex23": "Visit our company website here 👈"
+  },
+
+  "Cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "placeOrder": "Confirm Order and Show to Staff",
+    "submitting": "Submitting...",
+    "orderSuccess": "Order successful!",
+    "orderError": "Order failed. Please try again.",
+    "cartEmpty": "Cart is empty"
+  },
+
+  "Survey": {
+    "title": "Survey",
+    "numberQuestion": "How many people are in your group?",
+    "countryQuestion": "Where are you from?",
+    "selectCountry": "Select your country",
+    "selectNumber": "Select number of people",
+    "selectCReason": "Select a reason",
+    "Question1": "How did you hear about Monjayaki?",
+    "Question2": "Is this your first time eating Monjayaki?",
+    "yes": "Yes",
+    "no": "No",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "pleaseComplete": "Please complete all fields",
+    "submitError": "Submission failed. Please try again.",
+    "numbers": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11 or more"
+    },
+    "countries": {
+      "South Korea": "South Korea",
+      "China": "China",
+      "Taiwan": "Taiwan",
+      "USA": "USA",
+      "Hong Kong": "Hong Kong",
+      "Germany": "Germany",
+      "France": "France",
+      "UK": "UK",
+      "Australia": "Australia",
+      "Canada": "Canada",
+      "Italy": "Italy",
+      "Spain": "Spain",
+      "Thailand": "Thailand",
+      "Philippines": "Philippines",
+      "Singapore": "Singapore",
+      "Malaysia": "Malaysia",
+      "Indonesia": "Indonesia",
+      "India": "India",
+      "Vietnam": "Vietnam",
+      "Mexico": "Mexico",
+      "Japan": "Japan",
+      "Other": "Other"
+    },
+    "reasons": {
+      "1": "X (formerly Twitter)",
+      "2": "Instagram",
+      "3": "Youtube",
+      "4": "TikTok",
+      "5": "Other SNS",
+      "6": "Heard from an acquaintance",
+      "7": "Internet search (Google, etc.)",
+      "8": "Restaurant review site",
+      "9": "TV show",
+      "10": "Magazine / Guidebook",
+      "11": "Passed by the restaurant",
+      "Other": "Other"
+    }
+  },
+  "OrderConfirmation": {
+    "successTitle": "⚠️ Please Call Staff ⚠️",
+    "successMessage": "Your order is not yet complete. Please show this screen to the staff to finalize your order.",
+    "staffInstructionTitle": "店員の方へ",
+    "staffInstruction": "こちらの注文内容を確認し、ハンディでキッチンにオーダーを送信してください",
+    "orderDetails": "Order Details",
+    "total": "Total",
+    "backToMenu": "Back to Menu"
   }
 }

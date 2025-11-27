@@ -547,7 +547,9 @@
       { "name": "抹茶红豆卷 (抹茶あんこ巻き)", "price": "858" },
       { "name": "铁板红豆麻糬 (鉄板あんこもち)", "price": "858" },
       { "name": "冰淇淋配料 (香草/抹茶) (トッピングアイス)", "price": "275" }
-    ]
+    ],
+    "addToCart": "添加到购物车",
+  "added": "已添加"
   },
   "History": {
     "backToLang": "←菜单页面",
@@ -585,5 +587,91 @@
     "ex21": "我们的经营理念是传统与创新。我们的愿景是“将东京文化推向世界”。“我们想把我们坚信的美味带给顾客。”“我们想把东京的饮食文化传播到世界。”为此，我们作为食品专业人士，致力于提供令人难忘的体验。",
     "ex22": "除了以文字烧专卖店为主的餐饮业外，我们还开展销售海产品和日式家常菜等的零售业务。",
     "ex23": " 点击此处访问公司主页 👈"
+  },
+  "Cart": {
+    "title": "购物车",
+    "empty": "您的购物车是空的",
+    "total": "合计",
+    "placeOrder": "确认订单并出示给店员",
+    "submitting": "提交中...",
+    "orderSuccess": "订单已完成!",
+    "orderError": "订单失败。请再试一次。",
+    "cartEmpty": "购物车是空的"
+  },
+  "Survey": {
+    "title": "问卷调查",
+    "numberQuestion": "请告诉我们您的人数",
+    "countryQuestion": "您来自哪个国家？",
+    "selectCountry": "请选择国家",
+    "selectNumber": "请选择人数",
+    "selectCReason": "请选择理由",
+    "Question1": "您是如何知道文字烧(Monjayaki)的？",
+    "Question2": "这是您第一次吃文字烧(Monjayaki)吗？",
+    "yes": "是",
+    "no": "否",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "pleaseComplete": "请输入所有项目",
+    "submitError": "提交失败。请再试一次。",
+    "numbers": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11人及以上"
+    },
+    "countries": {
+      "South Korea": "韩国",
+      "China": "中国",
+      "Taiwan": "台湾",
+      "USA": "美国",
+      "Hong Kong": "香港",
+      "Germany": "德国",
+      "France": "法国",
+      "UK": "英国",
+      "Australia": "澳大利亚",
+      "Canada": "加拿大",
+      "Italy": "意大利",
+      "Spain": "西班牙",
+      "Thailand": "泰国",
+      "Philippines": "菲律宾",
+      "Singapore": "新加坡",
+      "Malaysia": "马来西亚",
+      "Indonesia": "印度尼西亚",
+      "India": "印度",
+      "Vietnam": "越南",
+      "Mexico": "墨西哥",
+      "Japan": "日本",
+      "Other": "其他"
+    },
+    "reasons": {
+      "1": "X (旧Twitter)",
+      "2": "Instagram",
+      "3": "Youtube",
+      "4": "TikTok",
+      "5": "其他SNS",
+      "6": "听朋友/熟人介绍",
+      "7": "网络搜索（谷歌等）",
+      "8": "美食评论网站",
+      "9": "电视节目",
+      "10": "杂志/旅游指南",
+      "11": "路过本店",
+      "Other": "其他"
+    }
+  },
+  "OrderConfirmation": {
+    "successTitle": "⚠️ 请呼叫店员 ⚠️",
+    "successMessage": "您的订单尚未完成。请将此画面出示给店员以完成订单。",
+    "staffInstructionTitle": "店員の方へ",
+    "staffInstruction": "こちらの注文内容を確認し、ハンディでキッチンにオーダーを送信してください",
+    "orderDetails": "订单详情",
+    "total": "合计",
+    "backToMenu": "返回菜单"
   }
 }

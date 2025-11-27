@@ -11,12 +11,14 @@ type Props = {
 export default function ConditionalLayoutWrapper({ children }: Props) {
   const pathname = usePathname();
   const isHomePage = pathname === "/";
+  const isSurveyPage = pathname === "/survey";
+
 
   return (
     <>
-      {!isHomePage && <Header />}
+       {!isHomePage && !isSurveyPage && <Header />}
       {children}
-      {!isHomePage && <Footer />}
+      {!isHomePage && !isSurveyPage && <Footer />}
     </>
   );
 }

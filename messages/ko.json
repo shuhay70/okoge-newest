@@ -610,7 +610,9 @@
         "name": "아이스크림 토핑 (바닐라 / 말차) (トッピングアイス)",
         "price": "275"
       }
-    ]
+    ],
+    "addToCart": "장바구니에 담기",
+  "added": "추가됨"
   },
   "History": {
     "backToLang": "←메뉴 페이지",
@@ -648,5 +650,91 @@
     "ex21": "우리의 경영 이념은 전통과 혁신입니다. 비전은 '도쿄 문화를 세계로'입니다. '우리가 믿는 맛있는 음식을 고객에게 전달하고 싶다.' '도쿄의 식문화를 세계에 알리고 싶다.' 이를 위해 해야 할 일은 음식 전문가로서 사람들의 기억에 남는 경험을 제공하는 것입니다.",
     "ex22": "몬자야키 전문점을 중심으로 하는 외식 산업 외에, 해산물이나 일본식 반찬 등을 판매하는 소매 사업 등을 전개하고 있습니다.",
     "ex23": " 회사 홈페이지는 이쪽으로 👈"
+  },
+  "Cart": {
+    "title": "장바구니",
+    "empty": "장바구니가 비어있습니다",
+    "total": "합계",
+    "placeOrder": "주문 확정 후 직원에게 보여주세요",
+    "submitting": "제출 중...",
+    "orderSuccess": "주문이 완료되었습니다!",
+    "orderError": "주문에 실패했습니다. 다시 시도해 주세요.",
+    "cartEmpty": "장바구니가 비어있습니다"
+  },
+  "Survey": {
+    "title": "설문조사",
+    "numberQuestion": "일행이 몇 분이신가요?",
+    "countryQuestion": "어느 나라에서 오셨나요?",
+    "selectCountry": "국가를 선택해 주세요",
+    "selectNumber": "인원수를 선택해 주세요",
+    "selectCReason": "이유를 선택해 주세요",
+    "Question1": "몬자야키를 어떻게 알게 되셨나요?",
+    "Question2": "몬자야키는 처음이신가요?",
+    "yes": "예",
+    "no": "아니요",
+    "submit": "제출",
+    "submitting": "제출 중...",
+    "pleaseComplete": "모든 항목을 입력해 주세요",
+    "submitError": "제출에 실패했습니다. 다시 시도해 주세요.",
+    "numbers": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11명 이상"
+    },
+    "countries": {
+      "South Korea": "한국",
+      "China": "중국",
+      "Taiwan": "대만",
+      "USA": "미국",
+      "Hong Kong": "홍콩",
+      "Germany": "독일",
+      "France": "프랑스",
+      "UK": "영국",
+      "Australia": "호주",
+      "Canada": "캐나다",
+      "Italy": "이탈리아",
+      "Spain": "스페인",
+      "Thailand": "태국",
+      "Philippines": "필리핀",
+      "Singapore": "싱가포르",
+      "Malaysia": "말레이시아",
+      "Indonesia": "인도네시아",
+      "India": "인도",
+      "Vietnam": "베트남",
+      "Mexico": "멕시코",
+      "Japan": "일본",
+      "Other": "기타"
+    },
+    "reasons": {
+      "1": "X (구 Twitter)",
+      "2": "Instagram",
+      "3": "Youtube",
+      "4": "TikTok",
+      "5": "기타 SNS",
+      "6": "지인에게 들음",
+      "7": "인터넷 검색 (Google 등)",
+      "8": "맛집 사이트",
+      "9": "TV 프로그램",
+      "10": "잡지/가이드북",
+      "11": "가게 앞을 지나가다",
+      "Other": "기타"
+    }
+  },
+  "OrderConfirmation": {
+    "successTitle": "⚠️ 직원을 불러주세요 ⚠️",
+    "successMessage": "주문이 아직 완료되지 않았습니다. 주문을 완료하려면 이 화면을 직원에게 보여주세요.",
+    "staffInstructionTitle": "店員の方へ",
+    "staffInstruction": "こちらの注文内容を確認し、ハンディでキッチンにオーダーを送信してください",
+    "orderDetails": "주문 내역",
+    "total": "합계",
+    "backToMenu": "메뉴로 돌아가기"
   }
 }
