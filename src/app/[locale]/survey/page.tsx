@@ -184,7 +184,7 @@ export default function SurveyPage() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#505938] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#0d3859]/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="w-full bg-[#505938] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#505938]/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             {isSubmitting ? t("submitting") : t("submit")}
           </button>
