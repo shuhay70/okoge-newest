@@ -131,12 +131,6 @@ export default function MenuPage() {
                           <p className="text-md text-white font-medium py-[5px] px-[10px] rounded-[15px] bg-[#505938]">
                             ¥{item.price.toLocaleString()}
                           </p>
-                          <button
-                            onClick={() => handleAddToCart(item)}
-                            className="bg-[#505938] text-white px-4 py-2 rounded-lg hover:bg-[#505938]/90 transition-colors"
-                          >
-                            {tMenu("addToCart")}
-                          </button>
                         </div>
                       </div>
                       {item.description && (
@@ -144,6 +138,14 @@ export default function MenuPage() {
                           {item.description}
                         </p>
                       )}
+                      <div className="flex justify-between mt-[20px]">
+                        <p></p>
+                        <button
+                          onClick={() => handleAddToCart(item)}
+                          className="bg-[#505938] text-white px-4 py-2 rounded-lg hover:bg-[#505938]/90 transition-colors text-sm">
+                          {tMenu("addToCart")}
+                      </button>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -162,18 +164,21 @@ export default function MenuPage() {
                   <p className="text-md text-white font-medium py-[5px] px-[10px] rounded-[15px] bg-[#505938]">
                     ¥{item.price.toLocaleString()}
                   </p>
-                  <button
-                    onClick={() => handleAddToCart(item)}
-                    className="bg-[#505938] text-white px-4 py-2 rounded-lg hover:bg-[#505938]/90 transition-colors text-sm"
-                  >
-                    {tMenu("addToCart")}
-                  </button>
                 </div>
               </div>
               {item.description && (
                 <p className="text-gray-600 text-sm">{item.description}</p>
               )}
-            </div>
+              <div className="flex justify-between mt-[20px]">
+                <p></p>
+                <button
+                    onClick={() => handleAddToCart(item)}
+                    className="bg-[#505938] text-white px-4 py-2 rounded-lg hover:bg-[#505938]/90 transition-colors text-sm"
+                  >
+                    {tMenu("addToCart")}
+                  </button>
+              </div>
+              </div>
           ))
         ) : (
           <p className="text-center text-gray-500">
